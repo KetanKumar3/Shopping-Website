@@ -18,7 +18,7 @@ function Section3() {
         </div>
       </div>
 
-      <div className="bg-[#F0F0F0] px-4 md:px-20 py-10 mt-10 mb-10 rounded-xl flex flex-col md:flex-row gap-8 md:gap-10 items-center">
+      <div className="px-4 md:px-20 py-10 mt-10 mb-10 rounded-xl flex flex-col md:flex-row gap-8 md:gap-10 items-center">
       <div className='w-1/2 md:w-auto'>
           <img className='w-full h-auto max-w-md' src={image3} alt="Mobile App" />
         </div>
@@ -34,6 +34,26 @@ function Section3() {
         </div>
         
       </div>
+
+
+      <div className='bg-[#F9DF56] flex flex-col justify-center items-center py-12 md:py-20 gap-4 px-4 md:px-0'>
+  <h1 className='text-2xl md:text-4xl text-white font-bold text-center'>
+    JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO
+  </h1>
+  <h2 className='text-lg md:text-2xl text-white font-semibold text-center'>
+    Type your email down below and be young wild generation
+  </h2>
+  <div className='bg-white w-full sm:w-96 md:w-72 px-3 py-1 md:px-6 md:py-2 flex justify-between rounded-md shadow-md'>
+    <input
+      type='email' // Changed to email for better input type
+      placeholder='Add your email here'
+      className='w-full text-gray-700 focus:outline-none' // Basic input styling
+    />
+    <button className='bg-black text-white px-3 py-1 md:px-4 text-xs md:text-sm rounded-md hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50'>
+      SEND
+    </button>
+  </div>
+</div>
     </>
   );
 }

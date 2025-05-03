@@ -10,7 +10,7 @@ import image6 from '../assets/image6.png';
 function Home() {
   return (
     <>
-      <div className="bg-[#E7E6E6] px-4 md:px-20 py-8 mt-8 md:mt-20 mb-6 md:mb-10 rounded-xl flex flex-col md:flex-row gap-8 md:gap-10 items-center">
+      <div className="bg-[#E7E6E6] px-4 md:px-20 py-8 mt-8 mb-6 md:mb-10 rounded-xl flex flex-col md:flex-row gap-8 md:gap-10 items-center">
       <div className='w-full md:w-1/2'>
           <img className='w-full rounded-md' src={image} alt="Unique Clothes" />
         </div>
