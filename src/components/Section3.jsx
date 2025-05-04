@@ -18,22 +18,21 @@ function Section3() {
         </div>
       </div>
 
-      <div className="px-4 md:px-20 py-10 mt-10 mb-10 rounded-xl flex flex-col md:flex-row gap-8 md:gap-10 items-center">
-      <div className='w-1/2 md:w-auto'>
-          <img className='w-full h-auto max-w-md' src={image3} alt="Mobile App" />
-        </div>
-        <div className='space-y-4 md:space-y-5'>
-          <h1 className='text-lg md:text-xl font-bold pl-2'>DOWNLOAD APP & GET THE VOUCHER!</h1>
-          <h3 className='text-sm md:text-base text-gray-700'>
-            Get 30% off for your first transaction using the Rondovision mobile app now.
-          </h3>
-          <div className='flex gap-3'>
-            <img className='w-32 md:w-40 h-10 md:h-12' src={image4} alt="Google Play Store" />
-            <img className='w-32 md:w-40 h-10 md:h-12' src={image5} alt="App Store" />
-          </div>
-        </div>
-        
-      </div>
+      <div className="bg-[#F0F0F0] px-4 md:px-20 py-8 mt-8  rounded-xl flex flex-col md:flex-row gap-16 md:gap-10 items-center">
+  <div className='w-full md:w-1/2 order-first md:order-last'>
+    <img className='w-full h-auto max-w-md md:mx-0' src={image3} alt="Mobile App" />
+  </div>
+  <div className='space-y-4 md:space-y-5 text-center md:text-left'>
+    <h1 className='text-xl md:text-2xl font-bold pl-2'>DOWNLOAD APP & GET THE VOUCHER!</h1>
+    <h3 className='text-base md:text-lg text-gray-700'>
+      Get 30% off for your first transaction using the Rondovision mobile app now.
+    </h3>
+    <div className='flex justify-center md:justify-start gap-3'>
+      <img className='w-32 md:w-40 h-10 md:h-12' src={image4} alt="Google Play Store" />
+      <img className='w-32 md:w-40 h-10 md:h-12' src={image5} alt="App Store" />
+    </div>
+  </div>
+</div>
 
 
       <div className='bg-[#F9DF56] flex flex-col justify-center items-center py-12 md:py-20 gap-4 px-4 md:px-0'>
